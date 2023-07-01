@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: so;
+}
+.main-title {
+    size: 30px;
+    color: black;
+}
+.text {
+    text-transform: uppercase;
+    fo
+}

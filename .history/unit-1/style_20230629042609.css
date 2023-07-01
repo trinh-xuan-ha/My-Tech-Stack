@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333333;
+    --main-color:#3e2520;
+    --primary-color:rgb(255,87,54);
+    --border-color:#dbdbdb;
+    --width: 1200px;
+
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}

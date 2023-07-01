@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: so;
+}
+.main-title {
+    font-size: 30px;
+    color: black;
+}
+.text {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: -25px;
+}
+h1 {
+    font-size: 60px;
+    line-height: 0;
+
+}
+p {
+    padding-top: 120px;
+    font-size: 20px;
+}
+img {
+    width: 75%;
+    ma
+}

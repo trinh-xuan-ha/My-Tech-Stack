@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white-color:#fff;
+    --text-color:#6666;
+    --text-color:#333333;
+    --main-color:#3e2520;
+    --primary-color:rgb(255,87,54);
+    --border-color:#dbdbdb;
+    --width: 1200px;
+
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--width);
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 50px;
+    /* position: relative; */
+}
+.list__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.buttom {
+    color: var(--text-color);
+    font-size: 20px;
+   transition-duration: 300ms;
+   transition: all;
+   
+}
+.list-menu i {
+    display: none;
+}
+.list-menu i:hover {
+    color: var(--primary-color);
+}
+.buttom:hover {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.menu__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.nav__social-link {
+    
+    
+}
+.social-link i {
+    color: var(--white-color);
+}
+.nav__social-link {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+   
+}
+.dropdown_menu {
+    margin-top: 24px;
+}
+.dropdown_mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: calc(100% - 120px);
+    max-width: 100%;
+    background-color: var(--white-color);
+    transform: translatex(100%);
+    opacity: 0;
+    overflow: hidden;
+    transition:  transform linear 0.2s, transform linear 0.2s;
+
+}
+.dropdown_mobile.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+.div__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: none;
+}
+.dropdown_menu li {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    
+}
+.dropdown_menu li a {
+    color: var(--text-color);
+}
+.dropdown_mobile {
+    position: relative;
+}
+.btn__close {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 0;
+    color: #333333;
+    right: 1rem;
+    font-weight: 900;
+    display: none;
+
+}

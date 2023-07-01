@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: so;
+}
+.main-title {
+    width: 136.84px;
+    height: 28.38px;
+    color: black;
+    transform: translateX();
+}
+.text {
+    
+}

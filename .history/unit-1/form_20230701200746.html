@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            ma
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+    /* display: flex; */
+}
+.form-input {
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px 20px;
+    height: 40px;
+    transition: 0.25s ease;
+    font-size: 1rem;
+    
+}
+.form-input:focus {
+    border-color: #000000;
+}
+.form-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 21px;
+    color: #999;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.25s ease;
+    
+}
+.form-input:not(:placeholder-shown) + .form-label,
+.form-input:focus + .form-label {
+    top: -1px;
+    left: 11px;
+    padding: 0 10px;
+    display: inline-block;
+    background-color: white;
+    color: red;
+    
+}
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="fname" class="form-label-name">First name</label>
+        <input type="text" class="form-input" placeholder=" ">
+        <label for="name" class="form-label">First name</label>
+        <label for="fname" class="form-label-name">First name</label>
+        <input type="text" class="form-input" placeholder=" ">
+        <label for="name" class="form-label">Last name</label>
+    </form>
+</body>
+</html>
