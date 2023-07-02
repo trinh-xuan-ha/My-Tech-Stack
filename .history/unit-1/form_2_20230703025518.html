@@ -101,28 +101,21 @@
             margin-top: -20px;
         }
 
-        .form__error .control {
-            border-color: aqua;
-        }
-        .form__error--message {
-            padding-top: 30px;
-            font-size: 14px;
-            color: red;
-        }
+        
         
     </style>
 </head>
 <body>
     <section class="container">
     <header> Thông tin người dùng</header>
-    <form action="#" class="form" name="studentForm" onsubmit="return checkForm()">
+    <form action="#" class="form" name="studentForm">
         <div class="input_box" id="studentidform">
             <label for="studentId">Student ID</label>
             <input type="text" placeholder="Student ID" maxlength="10" class="control" name="studentId" id="studentId">
         </div>
-        <div class="input_box" id="fullnameidform">
-            <label for="fullNameId">Full name</label>
-            <input type="text" placeholder="full name" maxlength="100" class="control" name="fullNameId" id="fullName">
+        <div class="input_box" id="fullnameid">
+            <label for="fullname">Full name</label>
+            <input type="text" placeholder="full name" maxlength="100" class="control" name="fullName" id="fullName">
         </div>
         <div class="input_box">
             <label for="">Last name</label>
@@ -143,58 +136,17 @@
            
             
         </div>
-        <div class="form__item form__action">
-            <input class="form__button" type="submit"/>
-        </div>
 
     </form>
 </section>
 <script>
-    
     function checkForm() {
-        const studentId = document.forms["studentForm"]["studentId"].value;
-        if (studentId === "")
+        const studenId = document.forms["studentForm"]["studentId"].value;
+        if (studenId ==="")
         {
-            showError("studentidform", "Student ID là bắt buộc");
+            sho
         }
-        else
-        {
-            clearError("studentidform")
-        }
-        const fullNameId = document.forms["studentForm"]["fullNameId"].value;
-        if (fullNameId === "")
-        {
-            showError("fullnameidform", "Tên là bắt buộc");
-        }
-        else
-        {
-            clearError("fullnameidform");
-        }
-        return false;
         
-    }
-    function showError (formItemId, errorMessage)
-    {
-        clearError(formItemId);
-        const formItem = document.getElementById(formItemId);
-        formItem.classList.add("form__error");
-        const errorAddSpan = document.createElement ("span");
-        errorAddSpan.className = "form__error--message";
-        errorAddSpan.textContent = errorMessage;
-        formItem.appendChild(errorAddSpan);
-    }
-
-    function clearError(formItemId)
-    {
-        const formItem = document.getElementById(formItemId);
-        const isError = formItem.classList.contains("form__error");
-        if(!isError)
-        {
-            return;
-        }
-        formItem.classList.remote("form__error");
-        const errorAddSpan = formItem.getElementByclassname("form__error--message");
-        formItem.removeChild(errorAddSpan[0]);
     }
 </script>
 </body>

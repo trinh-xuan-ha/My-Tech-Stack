@@ -101,14 +101,7 @@
             margin-top: -20px;
         }
 
-        .form__error .control {
-            border-color: aqua;
-        }
-        .form__error--message {
-            padding-top: 30px;
-            font-size: 14px;
-            color: red;
-        }
+        .form__error .
         
     </style>
 </head>
@@ -150,19 +143,18 @@
     </form>
 </section>
 <script>
-    
     function checkForm() {
-        const studentId = document.forms["studentForm"]["studentId"].value;
-        if (studentId === "")
+        const studenId = document.forms["studentForm"]["studentId"].value;
+        if (studenId ==="")
         {
-            showError("studentidform", "Student ID là bắt buộc");
+            showError("studentidform", "Student ID alf bắt buộc");
         }
         else
         {
             clearError("studentidform")
         }
         const fullNameId = document.forms["studentForm"]["fullNameId"].value;
-        if (fullNameId === "")
+        if (studenId ==="")
         {
             showError("fullnameidform", "Tên là bắt buộc");
         }
@@ -170,7 +162,6 @@
         {
             clearError("fullnameidform");
         }
-        return false;
         
     }
     function showError (formItemId, errorMessage)
@@ -186,7 +177,7 @@
 
     function clearError(formItemId)
     {
-        const formItem = document.getElementById(formItemId);
+        const formItemId = document.getElementById(formItemId);
         const isError = formItem.classList.contains("form__error");
         if(!isError)
         {
@@ -194,7 +185,7 @@
         }
         formItem.classList.remote("form__error");
         const errorAddSpan = formItem.getElementByclassname("form__error--message");
-        formItem.removeChild(errorAddSpan[0]);
+        formItem.remoteChild(errorAddSpan[0]);
     }
 </script>
 </body>
