@@ -1,0 +1,22 @@
+### git - quan ly project
+`git innt` -- bat dau.
+`git status` -- check project new.
+`git add` -- add file.
+`git commit -m''` -- dong goi, gian ten mo ta.
+`git log` -- check History da `git commit`.
+`git show` --check da thay doi.
+`git diff` 'different' -- xem noi dung code file co modifled. 
+`q`--thoat.
+`working directory` --Thu muc dang lam viec.
+`staging area`-- khi commit cac file dang thay doi o
+`git repository` --luu cac thay doi trong cac `commit  ` `staging area` sang `git repositort`
+`gitk` --mo cua so gd user.
+`git checkout` -- xoa bo  code thay doi vua tao moi co trong modifled  file
+`git reset ` -- nguoc voi  `git add`
+`git branch -b <branch> (branching)` --tao nhanh moi thoat nhanh hien tai
+`git branch` kiem tra dang o nhanh nao.
+`git checkout <branch>` -- quay tro lai branch
+`git merge ` -- keo thay doi tu nhanh sang nhanh can thay doi
+--1.git chechout a.
+--2.`git merge <branch>` b.
+`git branch -D <branch>` -- delect branch
