@@ -1,0 +1,3 @@
+class information {
+    con
+}

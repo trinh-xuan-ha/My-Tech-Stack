@@ -1,0 +1,1 @@
+//function Declaration: khai báo thông qua từ khóa`function`

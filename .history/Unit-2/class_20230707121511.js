@@ -1,0 +1,3 @@
+class information {
+    constructor(name)
+}

@@ -1,0 +1,1 @@
+class information Ơ

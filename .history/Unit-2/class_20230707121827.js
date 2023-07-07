@@ -1,0 +1,10 @@
+class information {
+    constructor(name) {
+        this.name = name;
+    }
+    hello() {
+        console.log(`xin chào tôi là ${this.name}.');
+    }
+}
+let information_new = new information ("Hà");
+information_new.hello(); 
