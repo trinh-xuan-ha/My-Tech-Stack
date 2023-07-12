@@ -1,0 +1,14 @@
+#main {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo_github {
+    font-size: 20px;
+}

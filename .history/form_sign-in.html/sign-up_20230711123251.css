@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+body {
+    background-color: rgb(20, 20, 20);
+}
+#main {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo_github {
+    font-size: 25px;
+    
+    color: white;
+}
+.header_user {
+    display: flex;
+
+}
+.header_user p {
+    color: rgb(96,111,140);
+}
+.header_user a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.header_user i {
+    font-size: 10px;
+}
+.header_user a:hover {
+    text-decoration:underline;
+}
+.container {
+   width: 654px;
+    max-width: 100%;
+    margin: 0  auto;
+    margin-top: 80px;
+    border: 1px solid rgb(86, 87, 88);
+    background-color: rgb(12,22,45);
+    border-radius: 5px;
+    padding: 20px;
+}
+#text_welcome {
+    font-size: 18px;
+    color: rgb(96,111,140);
+    line-height: 30px;
+}
+.typing_animation {
+    an
+}

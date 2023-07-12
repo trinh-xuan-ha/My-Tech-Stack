@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 310px;
+    max-width: 100%;
+    margin: 0  auto;
+}
+header {
+}
+header img {
+    width: 20%;
+    height: 20%;
+    display: ;
+}
+.form {
+    margin: 0 auto;
+}

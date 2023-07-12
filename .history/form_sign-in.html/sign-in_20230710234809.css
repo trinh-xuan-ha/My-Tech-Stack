@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 310px;
+    max-width: 100%;
+    margin: 0  auto;
+    margin-top: 40px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+header img {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 20px;
+    
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(216,222,228);
+    background-color: rgb(246,248,250);
+}
+.input_box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.gmail_text-cart {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.control_email {
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: rgb(31,35,40);
+    border-radius: 5px;
+    border: 1px solid rgb(216,222,228);
+}
+.control_email:focus {
+    border-color: rgb(9,105,218);
+}
+.password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.password_text {
+    font-size: 15px;
+    display: inline-block;
+}
+.forgot_password {
+    font-size: 15px;
+    display: inline-block;
+    
+}

@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 310px;
+    max-width: 100%;
+    margin: 0  auto;
+    margin-top: 40px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+header img {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 20px;
+    
+}
+header p {
+    font-size: 20px;
+    font-weight: 100;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(216,222,228);
+    background-color: rgb(246,248,250);
+}
+.input_box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.gmail_text-cart {
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.control_email {
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: rgb(31,35,40);
+    border-radius: 5px;
+    border: 1px solid rgb(216,222,228);
+}
+.control_gmail:focus {
+    border-color: rgb(9, 105, 218);
+}
+.control_password:focus {
+    
+}
+.password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.password_text-cart {
+    font-size: 15px;
+    display: inline-block;
+}
+.forgot_password {
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.control_password {
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 14
+    px;
+    color: rgb(31,35,40);
+    border-radius: 5px;
+    border: 1px solid rgb(216,222,228);
+}
+.form__action {
+    width: 100%;
+    
+}
+.form_btn:hover {
+    background-color: rgb(40, 129, 69);
+}
+.form_btn {
+    width: 100%;
+    background-color: rgb(31,136,61);
+    color: white;
+    padding: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    overflow: hidden;
+    cursor: pointer;
+}
+.new_account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid rgb(216,222,228);
+    background-color: rgb(246,248,250);
+    border-radius: 5px;
+    padding: 20px 0;
+}
+.new_account a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.new_account a:hover {
+    text-decoration: revert;
+}
+.new_account p {
+    font-size: 16px;
+}
+.cart-git {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.cart-git a {
+    text-decoration: none;
+  
+}
+/*sign-up*/
+.
