@@ -1,0 +1,15 @@
+#header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+.infomation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lh_phone,
+.lh

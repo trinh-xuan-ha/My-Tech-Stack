@@ -1,0 +1,6 @@
+#main_1 {
+   
+    display: grid;
+    max-width: var(--width);
+    margin: 0 auto;
+}

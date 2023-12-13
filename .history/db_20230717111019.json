@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+     
+      "fullName": "Trịnh Xuân Hà",
+      "date": "23/01/2000",
+      "address": "Hưng yên",
+      "numberphone": "0327761969",
+      "point": 10,
+       "id": 1
+    },
+    {
+      "id": 2,
+      "fullName": "Trịnh xuân Mai",
+      "date": "10/10/2000",
+      "address": "Hưng yên",
+      "numberphone": "0327761964",
+      "point": 8
+    }
+
+  ]
+}

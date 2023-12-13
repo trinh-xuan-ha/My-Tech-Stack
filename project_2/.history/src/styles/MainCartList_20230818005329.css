@@ -1,0 +1,33 @@
+.header-main-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.cart-title {
+  width: calc(100% / 4);
+}
+.cart-title_padding {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-text {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+.cart-icon svg {
+  padding: 6px;
+  color: aqua;
+  background-color: inherit;
+  font-size: 20px;
+}

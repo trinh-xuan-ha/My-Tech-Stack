@@ -1,0 +1,7 @@
+.navigation a {
+
+}
+.buttom:hover {
+    /* border-bottom: 2px solid var(--primary-color); */
+    color: var(--primary-color);
+}

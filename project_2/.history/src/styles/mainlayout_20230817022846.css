@@ -1,0 +1,8 @@
+.main-html {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.main-cart {
+  max-width: calc(100% - 260px);
+}

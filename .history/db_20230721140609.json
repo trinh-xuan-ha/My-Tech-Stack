@@ -1,0 +1,18 @@
+function renderUser(users) {
+  let listsinhvien = document.getElementById('bangsinhvien');
+  users.forEach(function(user) {
+      let tr = document.createElement('tr');
+      tr.innerHTML = `
+      <td>${user.studentId}</td>
+      <td>${user.fullName}</td>
+      <td>${user.date}</td>
+      <td>${user.address}</td>
+      <td>${user.numberphone}</td>
+      <td>${user.point}</td>
+      <button onclick"delete_user(${user.id})" > Xóa </button>
+      `;
+      listsinhvien.appendChild(tr);
+
+  });
+ 
+}

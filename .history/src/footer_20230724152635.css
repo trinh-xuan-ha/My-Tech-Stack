@@ -1,0 +1,6 @@
+.footer_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 12;
+}

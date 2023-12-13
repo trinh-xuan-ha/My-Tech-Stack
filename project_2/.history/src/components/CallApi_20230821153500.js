@@ -1,0 +1,38 @@
+import React, { useState } from "react";
+
+function CallApi({ apiEndpoint, requestData, onSuccess, onError }) {
+  const [loading, setLoading] = useState(false);
+
+  const handleAddRow = async () => {
+    try {
+      setLoading(true);
+      const response = await fetch(apiEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(requestData),
+      });
+
+      const data = await response.json();
+      setLoading(false);
+
+      if (response.ok) {
+        onSuccess(data); // Trigger any necessary update after success
+      } else {
+        onError("Error adding row"); // Handle error case
+      }
+    } catch (error) {
+      setLoading(false);
+      onError("Error adding row"); // Handle error case
+    }
+  };
+
+  return (
+    <button onClick={handleAddRow} disabled={loading}>
+      {loading ? "Adding..." : "Add New Row"}
+    </button>
+  );
+}
+
+export default CallApi;

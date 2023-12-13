@@ -1,0 +1,43 @@
+.main-full {
+  border-top: 1px solid rgb(222, 221, 224);
+  border-bottom: 1px solid rrgb(222, 221, 224);
+}
+.main-search-option-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+.input-btn-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+#carts {
+  width: 150px;
+  padding: 10px;
+}
+#searchs {
+  width: 150px;
+  padding: 10px;
+}
+.btn-export {
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
+.btn-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 10px;
+}

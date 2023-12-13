@@ -1,0 +1,58 @@
+.work-logo {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 0 48px 0 48px;
+}
+.logo-item {
+  width: 246px;
+  height: 225px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #f2f3f8;
+}
+.item-logo-icon {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 128px 107px 30px;
+}
+.item-icon-1 {
+  background: linear-gradient(158deg, #d555c7 14.46%, #f396ea 79.18%);
+}
+.item-icon-2 {
+  background: linear-gradient(160deg, #f49235 11.67%, #ffb46d 82.2%);
+}
+.item-icon-3 {
+  background: linear-gradient(339deg, #6bcefd 11.58%, #32a9df 88.12%);
+}
+.item-icon-4 {
+  background: linear-gradient(158deg, #ff7999 17.3%, #ffbdcc 82.95%);
+}
+
+.item-logo-icon img {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.main-work {
+  margin: 70px 135px 0;
+}
+.logo-icon-text {
+  position: relative;
+  width: 158px;
+  height: 47px;
+  flex-shrink: 0;
+  color: var(--Dark, #1f2326);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}

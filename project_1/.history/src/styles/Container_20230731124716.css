@@ -1,0 +1,18 @@
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.container_cart {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

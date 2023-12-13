@@ -1,0 +1,19 @@
+.look-shop-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.look-shop {
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.look-title {
+  text-align: center;
+  margin: 30px 0;
+}
+.look-cart {
+  border-radius: 10px;
+  overflow: hidden;
+}

@@ -1,0 +1,23 @@
+.image_main {
+    
+}
+.img_title {
+    position: relative;
+    
+}
+.main_logo {
+    /* position: relative; */
+}
+.image_text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.image_main img {
+    max-width: 100%;
+    height: auto;
+}
+.title_ship a {
+    padding: 10px 20px;
+}

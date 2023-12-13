@@ -1,0 +1,74 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="30" height="30" fill="#131313"/>
+<g id="Agency" clip-path="url(#clip0_16_53)">
+<rect width="1440" height="9596" transform="translate(-794 -775)" fill="white"/>
+<g id="div" filter="url(#filter0_f_16_53)">
+<rect x="88" y="-400" width="670.998" height="377.436" rx="188.718" fill="#F8A6F0"/>
+</g>
+<g id="div_2" filter="url(#filter1_f_16_53)">
+<rect x="-1547" y="-494" width="1362.54" height="766.436" rx="383.218" fill="#51B4FA"/>
+</g>
+<g id="div_3" filter="url(#filter2_f_16_53)">
+<rect x="-765" y="-246" width="751.025" height="422.451" rx="211.225" fill="#854AEB"/>
+</g>
+<g id="div_4" filter="url(#filter3_f_16_53)">
+<rect x="-202" y="-211" width="625.187" height="351.659" rx="175.83" fill="#F8D997"/>
+</g>
+<rect id="Rectangle 6063" x="-659" y="-126" width="1170" height="773" rx="30" fill="white"/>
+<g id="Frame 15">
+<g id="Card 02">
+<g id="Base" filter="url(#filter4_d_16_53)">
+<rect x="-59" y="-56" width="246" height="225" rx="12" fill="white"/>
+</g>
+<g id="Icon">
+<rect id="Base_2" x="-29" y="-26" width="88" height="88" rx="44" fill="url(#paint0_linear_16_53)"/>
+<g id="Icon_2">
+<g id="Vector">
+<path d="M1.04606e-05 17.1428H12.8572V29.9999H1.04606e-05V17.1428Z" fill="white"/>
+<path d="M30 9.09133L20.9087 0L12.8571 8.05153V0H0V12.8571H12.8571V9.09133L20.9087 17.1429H17.1429V30H30V17.1429H21.9485L30 9.09133Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_16_53" x="-208.017" y="-696.017" width="1263.03" height="969.471" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="148.009" result="effect1_foregroundBlur_16_53"/>
+</filter>
+<filter id="filter1_f_16_53" x="-1843.02" y="-790.017" width="1954.58" height="1358.47" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="148.009" result="effect1_foregroundBlur_16_53"/>
+</filter>
+<filter id="filter2_f_16_53" x="-1061.02" y="-542.017" width="1343.06" height="1014.49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="148.009" result="effect1_foregroundBlur_16_53"/>
+</filter>
+<filter id="filter3_f_16_53" x="-498.017" y="-507.017" width="1217.22" height="943.695" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="148.009" result="effect1_foregroundBlur_16_53"/>
+</filter>
+<filter id="filter4_d_16_53" x="-123" y="-100" width="374" height="353" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="16" operator="erode" in="SourceAlpha" result="effect1_dropShadow_16_53"/>
+<feOffset dy="20"/>
+<feGaussianBlur stdDeviation="40"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.1375 0 0 0 0 0.1375 0 0 0 0 0.1375 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_16_53"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_16_53" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_16_53" x1="28.5" y1="59.5" x2="-2.23213" y2="-21.723" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6BCEFD"/>
+<stop offset="1" stop-color="#32A9DF"/>
+</linearGradient>
+<clipPath id="clip0_16_53">
+<rect width="1440" height="9596" fill="white" transform="translate(-794 -775)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,15 @@
+#user {
+    display: flex;
+    max-width: var(--width);
+    margin: 0 auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_text {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 60px;
+}

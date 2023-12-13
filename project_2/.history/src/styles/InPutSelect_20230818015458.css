@@ -1,0 +1,16 @@
+.header-main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+form {
+  width: calc(100% / 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+select {
+  width: 100%;
+}

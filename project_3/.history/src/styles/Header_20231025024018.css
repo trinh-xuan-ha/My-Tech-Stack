@@ -1,0 +1,23 @@
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  margin: 30px 100px 0px 100px;
+}
+.header-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 121px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}

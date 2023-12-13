@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "trịnh hà",
+      "gmail": "trinhxuanha@gmail.com",
+      "role": "admin",
+      "plan": "company",
+      "status": "active",
+      "billing": "auto debit",
+      "image": "../assets/images/avatar-1-129659bb.png"
+    },
+    {
+      "name": "nguyễn van thế4",
+      "gmail": "the@gamil.com4",
+      "role": "author4",
+      "plan": "company4",
+      "status": "active4",
+      "billing": "cjeck4",
+      "image": "https://png.pngtree.com/png-clipart/20190921/original/pngtree-user-avatar-boy-png-image_4693645.jpg",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+
+{
+  "user": [
+    {
+      "Mã Sinh Viên": 1,
+      "Họ Và Tên": "Trịnh Xuân Hà",
+      "Ngày sinh": "23/01/2000",
+      "Quê quán":"Hưng yên",
+      "Số Điện Thoại": "0327761969",
+      "Điểm đầu vào": 10
+    },
+    {
+      "Mã Sinh Viên": 1,
+      "Họ Và Tên": "Trịnh Xuân Hà",
+      "Ngày sinh": "23/01/2000",
+      "Quê quán":"Hưng yên",
+      "Số Điện Thoại": "0327761969",
+      "Điểm đầu vào": 10
+    }
+  ]
+}

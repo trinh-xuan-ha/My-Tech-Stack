@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-html {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.main-cart {
+  padding-inline-start: 260px;
+  background-color: rgb(248, 247, 250);
+  width: calc(100% - 260px);
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.main-in {
+  inline-size: 100%;
+  margin-inline: auto;
+  max-inline-size: 1440px;
+}

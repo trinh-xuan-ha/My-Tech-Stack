@@ -1,0 +1,25 @@
+.navigation a {
+
+}
+.navigation a:hover {
+    /* border-bottom: 2px solid var(--primary-color); */
+    color: var(--primary-color);
+}
+.navigation a {
+    letter-spacing: 0.5px;
+    position: relative;
+}
+.navigation a::after {
+    position: absolute;
+    content: "";
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.3s;
+}
+.navigation a:hover::after {
+    width: 100%;
+    
+}

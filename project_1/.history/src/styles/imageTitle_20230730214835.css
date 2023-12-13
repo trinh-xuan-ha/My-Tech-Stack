@@ -1,0 +1,13 @@
+.image_main {
+   
+}
+.image_title {
+    position: relative;
+}
+.image_text {
+    position: absolute;
+}
+.image_main img {
+    ,ax-width: 100%;
+    height: auto;
+}

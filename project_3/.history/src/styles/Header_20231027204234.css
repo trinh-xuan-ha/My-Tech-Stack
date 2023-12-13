@@ -1,0 +1,134 @@
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 121px;
+  margin: 30px 100px 0 100px;
+}
+.logo_text {
+  color: #000;
+  text-align: center;
+
+  /* H5 */
+
+  font-family: "Sora", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.btn_start {
+  display: flex;
+  padding: 18px 50px;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  /* Sub Heading 2 */
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.btn-user {
+  border-radius: 30px;
+  background-color: rgba(22, 99, 249, 1);
+  border: none;
+}
+.menu-container a {
+  color: rgba(31, 35, 38, 1);
+
+  /* Sub Heading 2 */
+  font-family: "Poppins", sans-serif;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.header-title {
+}
+.title-text {
+  color: rgba(31, 35, 38, 1);
+  margin: 44px 317px 0 316px;
+  text-align: center;
+  /* H1 */
+  font-family: Sora;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 76px; /* 126.667% */
+  width: 807px;
+}
+.title-development {
+  background: linear-gradient(90deg, #f961d8 20.98%, #1663f9 59.51%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* H1 */
+  font-family: Sora;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 76px;
+  display: inline-block;
+}
+.title-describe {
+  color: rgba(31, 35, 38, 1);
+  text-align: center;
+  /* Pera 2 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 30px 361px 45px 364px;
+}
+.title-btn {
+  margin: 0 517px 0 518px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.btn-get-start {
+  display: flex;
+  padding: 18px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 30px;
+  background: rgba(22, 99, 249, 1);
+}
+.btn-pricing {
+  display: flex;
+  padding: 18px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  border: 1px solid rgba(31, 35, 38, 1);
+}

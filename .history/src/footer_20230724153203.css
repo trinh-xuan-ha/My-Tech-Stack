@@ -1,0 +1,22 @@
+.footer_1 {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 99px;
+    position: relative;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+.infomation {
+    width: 27%;
+    ma
+}

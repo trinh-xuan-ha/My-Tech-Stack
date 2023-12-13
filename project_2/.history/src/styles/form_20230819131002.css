@@ -1,0 +1,12 @@
+.container {
+  right: 0px;
+  z-index: 1006;
+  transform: translateX(0%);
+  position: fixed;
+  height: calc((100% - 0px) - 0px);
+  top: 0px;
+  bottom: 0px;
+  width: 400px;
+  background-color: white;
+  height: 100vh;
+}

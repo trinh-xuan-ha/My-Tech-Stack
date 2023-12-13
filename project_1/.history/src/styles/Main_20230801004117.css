@@ -1,0 +1,70 @@
+#main {
+  margin: 30px 0;
+}
+#main h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 50px 0;
+}
+.cart-img {
+  height: 410px;
+  overflow: hidden;
+  position: relative;
+}
+
+.main_cart img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.7s ease-in-out;
+}
+.image_2 {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.image_1 {
+  width: 100%;
+  height: 100%;
+}
+.main_cart:hover .image_1 {
+  opacity: 0; /* Khi hover, ẩn image1 */
+}
+.main_cart:hover .image_2 {
+  opacity: 1; /* Khi hover, hiện image2 */
+}
+.main_cart {
+  width: calc(100% / 6);
+}
+.main_product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  gap: 15px;
+}
+.cart-title {
+  margin-top: 10px;
+}
+.cart-title h4,
+p,
+span {
+  padding: 8px 0;
+}
+.cart-title span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.main_btn {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.main_btn button {
+  padding: 12px;
+}

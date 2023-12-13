@@ -1,0 +1,20 @@
+.work-logo {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 70px 48px 0 48px;
+}
+.logo-item {
+  width: 246px;
+  height: 225px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #f2f3f8;
+}
+.item-logo-icon {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  background: linear-gradient(158deg, #d555c7 14.46%, #f396ea 79.18%);
+}

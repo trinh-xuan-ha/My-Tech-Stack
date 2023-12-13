@@ -1,0 +1,9 @@
+ul {
+    display: flex;
+}
+li {
+    text-decoration: none;
+}
+a {
+    color: brown;
+}

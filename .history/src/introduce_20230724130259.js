@@ -1,0 +1,13 @@
+import IntroduceIcon from "./Introduce_icon";
+import IntroduceText(My Tech Stack
+,    ) from "./Introduce_text";
+import "./introduce.css";
+function Introduces() {
+    return (
+        <div id="introduce_1">
+            <IntroduceText() />
+            <IntroduceIcon />
+        </div>
+    )
+}
+export default Introduces;

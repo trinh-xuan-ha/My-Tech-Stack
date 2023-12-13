@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tạo mới</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./form.css">
+    </head>
+    <body>
+        <section class="container">
+            <header>Điền vào mẫu này</header>
+            <form action="#" class="form" name="studentForm">
+                <div class="input_box" id="idformstudent">
+                    <label for="student_text">Mã Sinh Viên</label>
+                    <input type="text" placeholder="Student ID" class="control" name="student_input" id="student_input">
+                </div>
+                <div class="input_box" id="nameformstudent">
+                    <label for="name_text">Tên Sinh viên</label>
+                    <input type="text" placeholder="Tên sinh viên" class="control" name="name_input" id="name_input" maxlength="200">
+                    
+                </div>
+                <div class="input_box" id="dateform">
+            
+                    <label for="date_text">Ngày sinh</label>
+                   
+                <input type="date" placeholder="full name" maxlength="100" class="control" name="date_input" id="date_input">
+                <span class="error_text"></span>
+            </div>
+                <div class="input_box" id="addressstudent">
+                    <label for="address_text">Địa chỉ</label>
+                    <input type="text" placeholder="Địa chỉ" class="control" name="address_input" id="address_input">
+                    <span class="error_text"></span>
+                </div>
+                <div class="input_box" id="idphonestudent">
+                    <label for="phone_text">Số Điện Thoại</label>
+                    <input type="text" placeholder="Số điện thoại" class="control" name="phone_input" id="phone_input" maxlength="11"  oninput="checkPhoneError()" >
+                    <span class="error_text" id="phone_error" style="font-size: 20px; color: red; display: none;"></span>
+                </div>
+                <!-- <button type="submit" class="form_btn" id="continue_button">Continue</button> -->
+                <div class="input_box" id="iddiemstudent">
+                    <label for="diem_text">Điểm đầu vào</label>
+                    <input type="text" placeholder="Điểm đầu vào" class="control" name="diem_input" id="diem_input">
+                    <span class="error_text"></span>
+                </div>
+            
+                <button type="submit" class="form_btn" id="continue_button">Continue</button>
+
+            </form>
+        </section>
+        
+        <script src="./form.js" async defer></script>
+    </body>
+</html>

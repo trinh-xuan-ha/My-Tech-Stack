@@ -1,0 +1,16 @@
+#navigation {
+    padding: 30px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul a {
+    font-size: 14px;
+    font-weight: 700;
+    l
+}

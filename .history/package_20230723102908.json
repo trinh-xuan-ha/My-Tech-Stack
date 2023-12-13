@@ -1,0 +1,18 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "`git innt` -- bat dau.\r `git status` -- check project new.\r `git add` -- add file.\r `git commit -m''` -- dong goi, gian ten mo ta.\r `git log` -- check History da `git commit`.\r `git show` --check da thay doi.\r `git diff` 'different' -- xem noi dung code file co modifled. \r `q`--thoat.\r `working directory` --Thu muc dang lam viec.\r `staging area`-- khi commit cac file dang thay doi o\r `git repository` --luu cac thay doi trong cac `commit  ` `staging area` sang `git repositort`\r `gitk` --mo cua so gd user.\r `git checkout` -- xoa bo  code thay doi vua tao moi co trong modifled  file\r `git reset ` -- nguoc voi  `git add`\r `git branch -b <branch> (branching)` --tao nhanh moi thoat nhanh hien tai\r `git branch` kiem tra dang o nhanh nao.\r `git checkout <branch>` -- quay tro lai branch\r `git merge ` -- keo thay doi tu nhanh sang nhanh can thay doi\r --1.git chechout a.\r --2.`git merge <branch>` b.\r `git branch -D <branch>` -- delect branch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  }
+}

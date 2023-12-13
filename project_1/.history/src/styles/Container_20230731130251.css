@@ -1,0 +1,25 @@
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  gap: 40px;
+  margin-top: 30px;
+}
+.container_cart {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_cart svg {
+  font-size: 65px;
+  margin-right: 15px;
+}
+.cart_title {
+  font-size: 13px;
+}
+.cart_title h3 {
+  display: inline-block;
+}

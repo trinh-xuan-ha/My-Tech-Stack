@@ -1,0 +1,61 @@
+.container {
+  right: 0px;
+  z-index: 1006;
+  transform: translateX(0%);
+  position: fixed;
+  height: calc((100% - 0px) - 0px);
+  top: 0px;
+  bottom: 0px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow: scroll;
+  z-index: 10001;
+  /* position: relative; */
+}
+.form {
+  width: 100%;
+}
+.input_box label {
+  padding-block: 20px;
+}
+.input_box {
+  width: 100%;
+  display: block;
+}
+.input_box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.input_box {
+  padding-block: 10px;
+}
+.from-btn-code {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-block: 20px;
+}
+.form_btn {
+  padding: 10px 30px;
+  border-radius: 6px;
+  border: none;
+}
+.input_box form {
+  width: 100%;
+}
+.btn-submit {
+  background-color: rgb(115, 103, 240);
+  color: white;
+}
+.btn-cancel {
+  margin-left: 20px;
+  background-color: rgb(241, 241, 242);
+  color: rgb(168, 170, 174);
+}
+.btn-clone {
+}

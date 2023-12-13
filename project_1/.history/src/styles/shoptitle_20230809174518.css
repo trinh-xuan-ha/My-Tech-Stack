@@ -1,0 +1,25 @@
+.shop-title-Cart {
+  max-width: 1370px;
+  margin: 40px auto;
+  text-align: center;
+}
+.title_comment {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.title_comment h4 {
+  font-size: 22px;
+  padding: 20px 0;
+}
+.title_comment span {
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 20px;
+}
+.shoptitle_btn {
+  margin: 50px 0;
+}
+.shoptitle_btn button {
+  padding: 10px;
+}

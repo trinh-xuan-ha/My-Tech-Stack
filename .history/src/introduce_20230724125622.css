@@ -1,0 +1,12 @@
+#introduce_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 90px;
+}
+.introduce_icon {
+    
+}

@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "trịnh hà",
+      "gmail": "trinhxuanha@gmail.com",
+      "role": "admin",
+      "plan": "company",
+      "status": "active",
+      "billing": "auto debit",
+      "image": "../images/github.jpg"
+    },
+    {
+      "id": 2,
+      "name": "nguyễn mình",
+      "gmail": "minh@gmail.com",
+      "role": "author",
+      "plan": "company",
+      "status": "active",
+      "billing": "auto debit",
+      "image": "../images/github.jpg"
+    }
+  ]
+}

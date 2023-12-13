@@ -1,0 +1,4 @@
+.main-search {
+  position: sticky;
+  inset-block-start: 1rem;
+}

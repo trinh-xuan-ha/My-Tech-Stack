@@ -1,0 +1,15 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Trịnh xuân hà",
+      "author": "haha",
+      "id": 2
+    }
+  ]
+  
+}

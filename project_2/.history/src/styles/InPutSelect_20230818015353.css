@@ -1,0 +1,9 @@
+.header-main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+form {
+  width: calc(100% / 4);
+}

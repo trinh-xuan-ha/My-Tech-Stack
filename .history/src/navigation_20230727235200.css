@@ -1,0 +1,30 @@
+
+.btn-a {
+    color: #666666;
+    font-size: 20px;
+    position: relative;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.btn-a:hover {
+    color: rgb(255,87,54);
+    
+}
+.btn-a::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(255,87,54);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.3s;
+}
+.btn-a:hover::after {
+    width: 100%;
+    
+}
+.change_color {
+    color: rgb(255,87,54);
+    
+}

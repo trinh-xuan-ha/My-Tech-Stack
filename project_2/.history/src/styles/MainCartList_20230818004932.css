@@ -1,0 +1,9 @@
+.header-main-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.cart-title {
+  width: calc(100% / 4);
+}

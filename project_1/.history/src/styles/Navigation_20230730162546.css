@@ -1,0 +1,37 @@
+#navigation {
+    padding: 30px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 23px;
+}
+.menu {
+    font-weight: 700;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #4a4040;
+    padding: 0 15px;
+    transition: ease-in 0.15s;
+}
+.menu ul a:hover {
+    color: #fb5300;
+}
+.navigation_img img {
+    align-items: center;
+    color:#3f4045;
+    line-height: 23px;
+    font-size: 14px;
+    
+
+}
+.paysearch ul{
+    display: flex;
+}

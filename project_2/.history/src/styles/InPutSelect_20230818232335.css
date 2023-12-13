@@ -1,0 +1,26 @@
+.header-main-content {
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgb(233, 231, 235);
+}
+.main-search-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+form {
+  width: calc(100% / 4);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+select {
+  width: 100%;
+  padding-block: 10px;
+}
+.header-main-content h3 {
+  padding-block: 20px;
+}

@@ -1,0 +1,5 @@
+.logo-item {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+}

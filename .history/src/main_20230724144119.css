@@ -1,0 +1,6 @@
+#main_1 {
+    margin-top: 50px;
+    display: grid;
+    max-width: var(--width);
+    margin: 0 auto;
+}

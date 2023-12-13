@@ -1,0 +1,16 @@
+#introduce_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 90px;
+}
+.introduce_icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px 83px;
+    margin-top: 70px;
+}
+.logo

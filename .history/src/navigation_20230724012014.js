@@ -1,0 +1,37 @@
+function Navigation() {
+    const list_menu = {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '50px'
+    };
+    const listyle = {
+        liststyle: "none"
+    }
+    const buttom = {
+        letterspacing: '0.5px',
+        position: 'relative',
+        color: 'black',
+        fontsize: '50px'
+    }
+    return (
+        <ul style={list_menu}>
+                <li style={listyle}>
+                    <a style={buttom} href="#">Home</a>
+                    </li>
+                <li>
+                    <a style={buttom} href="#">About</a>
+                    </li>
+                <li>
+                    <a style={buttom} href="#">Tech Stack</a>
+                    </li>
+                <li>
+                    <a style={buttom} href="#">Projects</a>
+                    </li>
+                <li>
+                    <a style={buttom} href="#">Contact</a>
+                </li>
+        </ul>
+    )
+};
+export default Navigation;

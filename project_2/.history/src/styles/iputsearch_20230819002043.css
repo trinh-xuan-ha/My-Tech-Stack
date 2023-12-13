@@ -1,0 +1,32 @@
+.main-full {
+  border-top: 1px solid rgb(222, 221, 224);
+  border-bottom: 1px solid rrgb(222, 221, 224);
+}
+.main-search-option-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+.input-btn-search {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+#carts {
+  width: 150px;
+  padding: 10px;
+}
+#searchs {
+  width: 150px;
+  padding: 10px;
+}
+.btn-export {
+  width: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-btn-search {
+}

@@ -1,0 +1,52 @@
+.main-product {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.product-team-1 {
+  display: flex;
+  align-items: center;
+  gap: 104px;
+}
+.product-team-2 {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.product-team-2 .desion-title-team {
+  order: 2;
+}
+.product-team-2 .image-product {
+  order: 1;
+}
+.product-team-1 .crossbar {
+  background: linear-gradient(
+    90deg,
+    #b112f4 -9.94%,
+    rgba(177, 18, 244, 0) 123.03%
+  );
+  width: 146px;
+  height: 2px;
+  flex-shrink: 0;
+}
+.crossbar {
+  background: linear-gradient(
+    90deg,
+    #b112f4 -9.94%,
+    rgba(177, 18, 244, 0) 123.03%
+  );
+  width: 146px;
+  height: 2px;
+  flex-shrink: 0;
+}
+.product-team-2 .crossbar {
+  background: linear-gradient(
+    90deg,
+    rgba(177, 18, 244, 0) 123.03%,
+    #b112f4 -9.94%
+  );
+  width: 146px;
+  height: 2px;
+  flex-shrink: 0;
+}

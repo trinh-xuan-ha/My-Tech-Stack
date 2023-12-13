@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+th {
+  text-align: left;
+}
+.user_image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user_image_icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.user_group {
+  /* padding-block: 5px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: inline-block;
+}
+.table_title {
+  /* padding: 20px; */
+}

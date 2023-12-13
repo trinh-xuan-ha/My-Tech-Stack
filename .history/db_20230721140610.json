@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "studentId": "1243423",
+      "fullName": "Trịnh Xuân Hà",
+      "date": "23/01/2000",
+      "address": "Hưng yên",
+      "numberphone": "0327761969",
+      "point": 1,
+      "id": 1
+    },
+    {
+      "studentId": "3232",
+      "fullName": "hahahaha",
+      "date": "23/02/2222",
+      "address": "hdhf",
+      "numberphone": "0222222222",
+      "point": "2",
+      "id": 2
+    },
+    {
+      "studentId": "4324",
+      "fullName": "3243",
+      "date": "20/01/2000",
+      "address": "fdfsdf",
+      "numberphone": "3232323232",
+      "point": "2",
+      "id": 3
+    },
+    {
+      "studentId": "232",
+      "fullName": "hà",
+      "date": "12/12/2000",
+      "address": "3hung",
+      "numberphone": "1111111111",
+      "point": "1",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "studentId": "1243423",
+      "fullName": "Trịnh Xuân Hà",
+      "date": "23/01/2000",
+      "address": "Hưng yên",
+      "numberphone": "0327761969",
+      "point": 10,
+      "id": 1
+    }
+    
+  ]
+}

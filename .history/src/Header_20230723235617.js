@@ -1,0 +1,36 @@
+
+// import Logo from "./Logo";
+// import Navigation from "./Navigation";
+// import Icon from "./Icon";
+// const Icon_id = createRoot(document.getElementById('icon'));
+// const Logo_id = createRoot(document.getElementById('logo'));
+// const Navigation_id = createRoot(document.getElementById('navigation'));
+
+// Logo_id.render(
+//     <StrictMode>
+//         <Logo/>
+//     </StrictMode>
+// );
+// Navigation_id.render(
+//     <StrictMode>
+//         <Navigation/>
+//         </StrictMode>
+// );
+// Icon_id.render(
+//     <StrictMode>
+//         <Icon/>
+//         </StrictMode>  
+// )
+function Header() {
+    return (
+        <h1>ha</h1>
+    )
+}
+export default Header;
+function App() {
+    return(
+        <h1>Trịnh xuân hà</h1>
+        
+    )
+}
+export default App

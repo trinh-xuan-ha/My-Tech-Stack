@@ -1,0 +1,47 @@
+#navigation {
+    padding: 50px 15px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 23px;
+}
+.menu {
+    font-weight: 700;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.menu ul a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #4a4040;
+
+    transition: ease-in 0.15s;
+}
+.menu ul a:hover {
+    color: #fb5300;
+}
+
+.navigation_img img {
+    align-items: center;
+    color:#3f4045;
+    line-height: 23px;
+    max-width: 50%;
+
+}
+.paysearch ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.paysearch ul a {
+    color: #4a4040;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 23px;
+}

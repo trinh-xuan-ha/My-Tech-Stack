@@ -1,0 +1,21 @@
+.btn-a {
+    position: relative;
+    letter-spacing: ;
+}
+.btn-a:hover {
+    color: var(--primary-color);
+}
+.btn-a::after {
+    position: absolute;
+    content: "";
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.3s;
+}
+.btn-a:hover::after {
+    width: 100%;
+    
+}

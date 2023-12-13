@@ -1,0 +1,32 @@
+.main_cart {
+  position: relative;
+}
+.main_cart img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+.image_2 {
+  opacity: 0;
+  width: 100%;
+}
+.image_1 {
+  width: 100%;
+}
+.main_cart:hover .image1 {
+  opacity: 0; /* Khi hover, ẩn image1 */
+}
+.main_cart:hover .image2 {
+  opacity: 1; /* Khi hover, hiện image2 */
+}
+.main_cart {
+  width: calc(100% / 6);
+}
+.main_product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  gap: 15px;
+}

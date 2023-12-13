@@ -1,0 +1,16 @@
+.sidebar {
+  position: fixed;
+  z-index: 1004;
+  display: flex;
+  flex-direction: column;
+  block-size: 100%;
+  inline-size: 260px;
+}
+.logo-sidebar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.logo-sidebar h1 {
+  padding: 0 20px 10px 0;
+}

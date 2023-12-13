@@ -1,0 +1,19 @@
+.image_main {
+    position: relative;
+}
+.img_title {
+    position: relative;
+    
+}
+.main_logo {
+    position: relative;
+}
+.image_text {
+    position: absolute;
+    transform: translateX(50%);
+    top: 0;
+}
+.image_main img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,13 @@
+.header_1 {
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--width);
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+
+}

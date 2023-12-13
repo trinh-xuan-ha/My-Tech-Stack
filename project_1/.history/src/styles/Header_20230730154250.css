@@ -1,0 +1,71 @@
+#header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+    margin-top: 20px;
+    border-bottom: ;
+    
+}
+.infomation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lh_phone,
+.lh_email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    line-height: 22px;
+    
+}
+.lh_phone a,
+.lh_email a {
+    color: #1a1a1a;
+    line-height: 22px;   
+    transition: ease-in 0.15s;
+}
+.lh_phone a:hover,
+.lh_email a:hover {
+    color: #fb5300;
+    
+}
+.title_ship {
+    display: flex;
+    padding: 0 15px;
+    font-size: 10px;
+    line-height: 20px;
+    color: #1a1a1a;
+    font-weight: 700;
+    gap: 5px;
+}
+.ship_text,
+.title_ship a {
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: #1a1a1a;
+    transition: ease-in 0.15s;
+}
+.title_ship a:hover {
+    color: #fb5300;
+}
+.paylanguage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.language ,
+.usd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
